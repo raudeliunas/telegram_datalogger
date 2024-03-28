@@ -5,5 +5,4 @@ services:
     volumes:
       - ./../../datalog.log:/caminho/datalog.log
     environment:
-      TOKEN: "5336785089:AAFBouz-Q7PVTL6MgmTebS8RPuH0cI_aeYA"
-
+      TOKEN: "API"

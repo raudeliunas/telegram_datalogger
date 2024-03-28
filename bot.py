@@ -1,5 +1,6 @@
 import telebot
 import os
+import zipfile
 
 # Recuperar o token do ambiente
 TOKEN = os.environ.get('TOKEN')
@@ -7,25 +8,29 @@ TOKEN = os.environ.get('TOKEN')
 # Diretório onde está o arquivo de log
 LOG_FILE_PATH = '/caminho/datalog.log'
 
-# Lista de usernames permitidos
-USERS_ALLOWED = ["raudeliunas", "username2", "username3"]
-
 # Criar instância do bot
 bot = telebot.TeleBot(TOKEN)
+
 
 # Comando para enviar o arquivo de log
 @bot.message_handler(commands=['enviarlog'])
 def enviar_log(message):
     try:
-        # Verificar se o remetente está na lista de usernames permitidos
-        if message.from_user.username in USERS_ALLOWED:
-            with open(LOG_FILE_PATH, 'rb') as log_file:
-                bot.send_document(message.chat.id, log_file)
-                bot.reply_to(message, "Arquivo de log enviado com sucesso!")
-        else:
-            bot.reply_to(message, "Você não tem permissão para usar este comando.")
+        # Compactar o arquivo de log
+        with zipfile.ZipFile('log.zip', 'w') as zipf:
+            zipf.write(LOG_FILE_PATH, arcname=os.path.basename(LOG_FILE_PATH))
+
+        # Enviar o arquivo zip
+        with open('log.zip', 'rb') as zip_file:
+            bot.send_document(message.chat.id, zip_file)
+
+        # Remover o arquivo zip temporário
+        os.remove('log.zip')
+
+        bot.reply_to(message, "Arquivo de log enviado com sucesso!")
     except Exception as e:
         bot.reply_to(message, f"Erro ao enviar arquivo de log: {e}")
+
 
 # Lidar com mensagens recebidas para capturar o chat ID
 @bot.message_handler(func=lambda message: True)
@@ -34,6 +39,7 @@ def handle_message(message):
     if message.chat.type == 'private':
         # Responder com uma mensagem de boas-vindas ou qualquer outra coisa
         bot.reply_to(message, "Olá! Para receber o arquivo de log, use o comando /enviarlog.")
+
 
 # Iniciar o bot
 bot.polling()
