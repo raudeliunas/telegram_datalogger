@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe07afa4-7706-455e-a3cf-5f23bb33f42a" name="Changes" comment="atualização firmware neon." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Aa3Rg0RzrrB1oQ82TgQtsmShK6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Carlos Eduardo\OneDrive - Techboard Latam Segurança Eletrônica Ltda\Documentos\GitHub\telegram_datalogger\app" />
+      <recent name="C:\Users\Carlos Eduardo\Documents\GitHub\iongradetelebot\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Carlos Eduardo\OneDrive - Techboard Latam Segurança Eletrônica Ltda\Documentos\GitHub\telegram_datalogger\arquivos" />
+      <recent name="C:\Users\Carlos Eduardo\Documents\GitHub\iongradetelebot\logs" />
+      <recent name="C:\Users\Carlos Eduardo\Documents\GitHub\iongradetelebot\app" />
+      <recent name="C:\Users\Carlos Eduardo\Documents\GitHub\iongradetelebot\dados" />
+      <recent name="C:\Users\Carlos Eduardo\Documents\GitHub\iongradetelebot\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="listatransmissaodel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iongradetelebot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listatransmissaodel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iongradetelebot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="iongradetelebot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Carlos Eduardo\Documents\GitHub\iongradetelebot\app\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iongradetelebot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/main2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iongradetelebot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.teste" />
+        <item itemvalue="Python.main2" />
+        <item itemvalue="Python.listatransmissaodel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe07afa4-7706-455e-a3cf-5f23bb33f42a" name="Changes" comment="" />
+      <created>1655233862094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655233862094</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Criação de script para automatizar atualização.">
+      <created>1660910923984</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1660910923984</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Criação de script para automatizar atualização.">
+      <created>1660911067530</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1660911067530</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Criação de script para automatizar atualização.">
+      <created>1660911384566</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1660911384566</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Criação de script para automatizar atualização.">
+      <created>1660911476189</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1660911476189</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Criação de script para automatizar atualização.">
+      <created>1660925877030</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1660925877030</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Atualização de firmware. Aurum e Neon.">
+      <created>1662466634827</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1662466634827</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Atualização de firmware. Aurum">
+      <created>1663678692440</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1663678692441</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Atualização de firmware Neon">
+      <created>1663849457563</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1663849457563</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Atualização de firmware Neon e contato do suporte.">
+      <created>1665670988683</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1665670988683</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Atualização de firmware Neon e Aurum">
+      <created>1666097098844</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1666097098844</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Atualização de manual selenium_as.pdf e firmware iridium">
+      <created>1667477230533</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1667477230533</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Atualização de manuais e firmwares.">
+      <created>1668602856467</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1668602856467</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Atualização de manuais e firmwares.">
+      <created>1668719386197</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1668719386197</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Atualização de firmwares.">
+      <created>1669638788813</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1669638788814</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Atualização de firmwares.">
+      <created>1669642941440</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1669642941440</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Atualização de firmwares.">
+      <created>1669744885782</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1669744885783</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Atualização de firmwares.">
+      <created>1670424907065</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1670424907065</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Atualização de firmwares e manuais.">
+      <created>1671621900175</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1671621900175</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Atualização de firmwares e manuais.">
+      <created>1673269250265</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1673269250265</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Atualização de firmwares e manuais.">
+      <created>1673957797598</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1673957797598</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Atualização de firmwares e manuais.">
+      <created>1674477336699</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1674477336699</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Atualização de firmwares e manuais.">
+      <created>1674657065816</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1674657065816</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Atualização de firmwares e manuais.">
+      <created>1675691493098</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1675691493098</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Atualização de firmwares e manuais.">
+      <created>1676304094811</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1676304094811</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Atualização de firmwares e manuais.">
+      <created>1676896147428</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1676896147429</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Atualização de firmwares e manuais.">
+      <created>1678016652610</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1678016652610</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Atualização de firmwares e manuais.">
+      <created>1678363015711</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1678363015711</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Atualização de firmwares e manuais.">
+      <created>1679947019451</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1679947019452</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Atualização de firmwares e manuais.">
+      <created>1680181252527</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1680181252527</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Atualização de firmwares e manuais.">
+      <created>1681490700783</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1681490700783</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Atualização de firmwares e manuais.">
+      <created>1684758509552</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1684758509552</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Atualização de firmwares e manuais.">
+      <created>1688901486166</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1688901486166</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Atualização de firmwares e manuais.">
+      <created>1688901906631</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1688901906631</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Atualização de firmwares e manuais.">
+      <created>1688902007472</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1688902007472</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Atualização de firmwares e manuais.">
+      <created>1696503971497</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1696503971497</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Atualização de firmwares e manuais.">
+      <created>1696878818165</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1696878818165</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Atualização de firmwares e manuais.">
+      <created>1698320624021</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1698320624021</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Atualização de firmwares e manuais.">
+      <created>1698354415755</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1698354415755</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Adição de videos.">
+      <created>1700233085598</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1700233085598</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Adição de manuais">
+      <created>1705675860461</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1705675860461</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Video de tipo de eventos">
+      <created>1706801109962</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1706801109962</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Video de operadores">
+      <created>1706813142114</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1706813142114</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Videos">
+      <created>1706821546640</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1706821546641</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Videos Neon">
+      <created>1706900807838</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1706900807838</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Videos Neon">
+      <created>1708023112510</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1708023112510</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Videos Empresas e Pessoas">
+      <created>1708364010566</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1708364010566</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Videos de faciais.">
+      <created>1708982805340</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1708982805341</updated>
+    </task>
+    <task id="LOCAL-00086" summary="atualização firmware neon.">
+      <created>1708982921055</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1708982921055</updated>
+    </task>
+    <task id="LOCAL-00087" summary="atualização firmware neon.">
+      <created>1711054612994</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1711054612994</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Alteração no metodo de listar arquivos." />
+    <MESSAGE value="Inserido novos firmwares Aurum e Neon." />
+    <MESSAGE value="Correção texto da função /start&#10;Alteração no log de chat id para username, para facilitar analise." />
+    <MESSAGE value="atualização de firmwares aurum_firmware.zip e neon_firmware.zip e accelero.pdf." />
+    <MESSAGE value="atualização de firmwares aurum_firmware.zip e neon_firmware.zip." />
+    <MESSAGE value="atualização de firmwares" />
+    <MESSAGE value="Criação de script para automatizar atualização." />
+    <MESSAGE value="Atualização de firmware. Aurum e Neon." />
+    <MESSAGE value="Atualização de firmware. Aurum" />
+    <MESSAGE value="Atualização de firmware Neon" />
+    <MESSAGE value="Atualização de firmware Neon e contato do suporte." />
+    <MESSAGE value="Atualização de firmware Neon e Aurum" />
+    <MESSAGE value="Atualização de manual selenium_as.pdf e firmware iridium" />
+    <MESSAGE value="Atualização de manuais e firmwares." />
+    <MESSAGE value="Atualização de firmwares." />
+    <MESSAGE value="Atualização de firmwares e manuais." />
+    <MESSAGE value="Adição de videos." />
+    <MESSAGE value="Adição de manuais" />
+    <MESSAGE value="Video de tipo de eventos" />
+    <MESSAGE value="Video de operadores" />
+    <MESSAGE value="Videos" />
+    <MESSAGE value="Videos Neon" />
+    <MESSAGE value="Videos Empresas e Pessoas" />
+    <MESSAGE value="Videos de faciais." />
+    <MESSAGE value="atualização firmware neon." />
+    <option name="LAST_COMMIT_MESSAGE" value="atualização firmware neon." />
+  </component>
+</project>
