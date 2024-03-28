@@ -5,7 +5,7 @@ import os
 TOKEN = os.environ.get('TOKEN')
 
 # Diretório onde está o arquivo de log
-LOG_FILE_PATH = '/caminho/teste.log'
+LOG_FILE_PATH = '/caminho/datalog.log'
 
 # Lista de usernames permitidos
 USERS_ALLOWED = ["raudeliunas", "username2", "username3"]
