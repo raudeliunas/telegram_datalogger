@@ -4,5 +4,5 @@ services:
     build: .
     volumes:
       - ./../../datalog.log:/caminho/datalog.log
-    environment:
-      TOKEN: "7179104493:AAFDW7pafJP4BHy0kPBMzbYtFKUUFc2F-kA"
+    env_file:
+      - .env
