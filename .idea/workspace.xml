@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe07afa4-7706-455e-a3cf-5f23bb33f42a" name="Changes" comment="Ajuste do &quot;.env&quot; e adicionado comando remoto." />
+    <list default="true" id="fe07afa4-7706-455e-a3cf-5f23bb33f42a" name="Changes" comment="Correção do script Bash">
+      <change beforePath="$PROJECT_DIR$/.env-sample" beforeDir="false" afterPath="$PROJECT_DIR$/.env-sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655233862094</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Criação de script para automatizar atualização.">
-      <created>1660911476189</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1660911476189</updated>
     </task>
     <task id="LOCAL-00043" summary="Criação de script para automatizar atualização.">
       <created>1660925877030</created>
@@ -530,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713897193841</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Correção do script Bash">
+      <created>1713903390689</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1713903390689</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,7 +550,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Inserido novos firmwares Aurum e Neon." />
     <MESSAGE value="Correção texto da função /start&#10;Alteração no log de chat id para username, para facilitar analise." />
     <MESSAGE value="atualização de firmwares aurum_firmware.zip e neon_firmware.zip e accelero.pdf." />
     <MESSAGE value="atualização de firmwares aurum_firmware.zip e neon_firmware.zip." />
@@ -571,6 +574,7 @@
     <MESSAGE value="Videos de faciais." />
     <MESSAGE value="atualização firmware neon." />
     <MESSAGE value="Ajuste do &quot;.env&quot; e adicionado comando remoto." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste do &quot;.env&quot; e adicionado comando remoto." />
+    <MESSAGE value="Correção do script Bash" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção do script Bash" />
   </component>
 </project>
