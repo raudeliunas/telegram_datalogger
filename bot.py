@@ -1,6 +1,7 @@
 import telebot
 import os
 import zipfile
+import subprocess
 
 # Recuperar o token do ambiente
 TOKEN = os.environ.get('TOKEN')
@@ -37,6 +38,25 @@ def enviar_log(message):
             bot.reply_to(message, "Você não tem permissão para usar este comando.")
     except Exception as e:
         bot.reply_to(message, f"Erro ao enviar arquivo de log: {e}")
+
+
+# Comando para executar o script Bash
+comando_bash = "acessoremoto.sh"
+
+
+# Executar o script Bash
+@bot.message_handler(commands=['acessoremoto'])
+def enviar_log(message):
+    try:
+        # Verificar se o remetente está na lista de usernames permitidos
+        if message.from_user.username in USERS_ALLOWED:
+            try:
+                subprocess.run(comando_bash, shell=True, check=True)
+                print("Script Bash executado com sucesso!")
+            except subprocess.CalledProcessError as e:
+                print(f"Erro ao executar o script Bash: {e}")
+    except Exception as e:
+        bot.reply_to(message, f"Erro para executar comando")
 
 
 # Lidar com mensagens recebidas para capturar o chat ID
