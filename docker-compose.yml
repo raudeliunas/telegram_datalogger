@@ -4,6 +4,7 @@ services:
     build: .
     volumes:
       - ./../../datalog.log:/caminho/datalog.log
+      - ./acessoremoto.sh:/app/acessoremoto.sh
     env_file:
       - .env
     restart: always

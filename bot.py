@@ -10,7 +10,7 @@ TOKEN = os.environ.get('TOKEN')
 LOG_FILE_PATH = '/caminho/datalog.log'
 
 # Lista de usernames permitidos
-USERS_ALLOWED = ["raudeliunas", "alesinicio", "GustavoSobrinh0"]
+USERS_ALLOWED = ["raudeliunas", "alesinicio", "Kinbold", "cai0august"]
 
 # Criar instância do bot
 bot = telebot.TeleBot(TOKEN)
@@ -40,23 +40,21 @@ def enviar_log(message):
         bot.reply_to(message, f"Erro ao enviar arquivo de log: {e}")
 
 
-# Comando para executar o script Bash
-comando_bash = "acessoremoto.sh"
-
-
 # Executar o script Bash
-@bot.message_handler(commands=['acessoremoto'])
-def enviar_log(message):
+@bot.message_handler(commands=['executar_script'])
+def executar_script(message):
     try:
-        # Verificar se o remetente está na lista de usernames permitidos
-        if message.from_user.username in USERS_ALLOWED:
-            try:
-                subprocess.run(comando_bash, shell=True, check=True)
-                print("Script Bash executado com sucesso!")
-            except subprocess.CalledProcessError as e:
-                print(f"Erro ao executar o script Bash: {e}")
-    except Exception as e:
-        bot.reply_to(message, f"Erro para executar comando")
+        # Se o remetente não estiver na lista de usernames permitidos, sair
+        if message.from_user.username not in USERS_ALLOWED:
+            bot.reply_to(message, "Você não tem permissão para usar este comando.")
+            return
+
+        # Executar o script Bash
+        subprocess.run("./acessoremoto.sh", shell=True, check=True)
+
+        bot.reply_to(message, "Script Bash executado com sucesso!")
+    except subprocess.CalledProcessError as e:
+        bot.reply_to(message, f"Erro ao executar o script Bash: {e}")
 
 
 # Lidar com mensagens recebidas para capturar o chat ID
@@ -65,7 +63,7 @@ def handle_message(message):
     # Se a mensagem veio de uma conversa (não de um grupo, por exemplo)
     if message.chat.type == 'private':
         # Responder com uma mensagem de boas-vindas ou qualquer outra coisa
-        bot.reply_to(message, "Olá! Para receber o arquivo de log, use o comando /enviarlog.")
+        bot.reply_to(message, "Olá! Você pode usar os comandos /executar_script ou /enviarlog.")
 
 
 # Iniciar o bot

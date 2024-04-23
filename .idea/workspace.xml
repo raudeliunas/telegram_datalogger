@@ -187,13 +187,6 @@
       <option name="presentableId" value="Default" />
       <updated>1655233862094</updated>
     </task>
-    <task id="LOCAL-00041" summary="Criação de script para automatizar atualização.">
-      <created>1660911384566</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1660911384566</updated>
-    </task>
     <task id="LOCAL-00042" summary="Criação de script para automatizar atualização.">
       <created>1660911476189</created>
       <option name="number" value="00042" />
@@ -530,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713897181165</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Ajuste do &quot;.env&quot; e adicionado comando remoto.">
+      <created>1713897193841</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1713897193841</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
