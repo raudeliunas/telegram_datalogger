@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe07afa4-7706-455e-a3cf-5f23bb33f42a" name="Changes" comment="Ajuste do">
-      <change afterPath="$PROJECT_DIR$/acessoremoto.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env-sample" beforeDir="false" afterPath="$PROJECT_DIR$/.env-sample" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="fe07afa4-7706-455e-a3cf-5f23bb33f42a" name="Changes" comment="Ajuste do &quot;.env&quot; e adicionado comando remoto." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,28 +60,7 @@
       <recent name="C:\Users\Carlos Eduardo\Documents\GitHub\iongradetelebot\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
-    <configuration name="listatransmissaodel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="iongradetelebot" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listatransmissaodel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Shell Script.acessoremoto.sh">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="iongradetelebot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,6 +145,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="acessoremoto.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/acessoremoto.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -182,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Shell Script.acessoremoto.sh" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.teste" />
         <item itemvalue="Python.main2" />
-        <item itemvalue="Python.listatransmissaodel" />
       </list>
     </recent_temporary>
   </component>
@@ -198,13 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655233862094</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Criação de script para automatizar atualização.">
-      <created>1660911067530</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1660911067530</updated>
     </task>
     <task id="LOCAL-00041" summary="Criação de script para automatizar atualização.">
       <created>1660911384566</created>
@@ -542,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712256435434</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Ajuste do &quot;.env&quot; e adicionado comando remoto.">
+      <created>1713897181165</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1713897181165</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -558,7 +546,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Alteração no metodo de listar arquivos." />
     <MESSAGE value="Inserido novos firmwares Aurum e Neon." />
     <MESSAGE value="Correção texto da função /start&#10;Alteração no log de chat id para username, para facilitar analise." />
     <MESSAGE value="atualização de firmwares aurum_firmware.zip e neon_firmware.zip e accelero.pdf." />
@@ -583,6 +570,7 @@
     <MESSAGE value="Videos Empresas e Pessoas" />
     <MESSAGE value="Videos de faciais." />
     <MESSAGE value="atualização firmware neon." />
-    <option name="LAST_COMMIT_MESSAGE" value="atualização firmware neon." />
+    <MESSAGE value="Ajuste do &quot;.env&quot; e adicionado comando remoto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste do &quot;.env&quot; e adicionado comando remoto." />
   </component>
 </project>
