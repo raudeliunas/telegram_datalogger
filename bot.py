@@ -23,7 +23,7 @@ def enviar_log(message):
         # Verificar se o remetente está na lista de usernames permitidos
         if message.from_user.username in USERS_ALLOWED:
             # Compactar o arquivo de log
-            with zipfile.ZipFile('log.zip', 'w') as zipf:
+            with zipfile.ZipFile('log.zip', 'w', compression=zipfile.ZIP_DEFLATED) as zipf:
                 zipf.write(LOG_FILE_PATH, arcname=os.path.basename(LOG_FILE_PATH))
 
             # Enviar o arquivo zip
