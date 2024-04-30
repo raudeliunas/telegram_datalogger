@@ -9,8 +9,11 @@ TOKEN = os.environ.get('TOKEN')
 # Diretório onde está o arquivo de log
 LOG_FILE_PATH = '/caminho/datalog.log'
 
+# Obter a lista de usernames autorizados do arquivo .env
+users_allowed_str = os.environ.get('USERS_ALLOWED')
+
 # Lista de usernames permitidos
-USERS_ALLOWED = ["raudeliunas", "alesinicio", "Kinbold", "cai0august"]
+USERS_ALLOWED = users_allowed_str.split(',')
 
 # Criar instância do bot
 bot = telebot.TeleBot(TOKEN)
